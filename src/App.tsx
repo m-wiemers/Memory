@@ -1,8 +1,8 @@
 import "./styles.css";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import cardSlugs, { CardSlugType } from "./components/CardSlugs";
 import Card from "./components/Card";
+import CardSlugs, { CardSlugType } from "./components/CardSlugs";
 import Button from "./components/Button";
 import MessageBox from "./components/MessageBox";
 import Timer from "./components/Timer";

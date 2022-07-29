@@ -1,7 +1,7 @@
 import "./styles.css";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import cardSlugs from "./cardSlugs";
+import cardSlugs from "./components/cardSlugs";
 import Card from "./components/Card";
 import Button from "./components/Button";
 import MessageBox from "./components/MessageBox";

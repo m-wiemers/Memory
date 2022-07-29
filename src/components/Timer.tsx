@@ -17,7 +17,7 @@ const Timer = ({ active, reset }: Props) => {
   const [timer, setTimer] = useState<number>(0);
 
   useEffect(() => {
-    let interval;
+    let interval: any;
 
     if (active) {
       interval = setInterval(() => {

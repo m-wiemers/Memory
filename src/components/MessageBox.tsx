@@ -5,6 +5,10 @@ type MessageBoxProps = {
   visible: boolean;
 };
 
+type WrapperProps = {
+  vis: boolean
+}
+
 const Wrapper = styled.div`
   position: absolute;
   width: 80%;
@@ -12,7 +16,7 @@ const Wrapper = styled.div`
   background-color: transparent;
   display: flex;
   justify-content: center;
-  display: ${({ vis }) => (vis ? "inherit" : "none")};
+  display: ${({ vis }: WrapperProps) => (vis ? "inherit" : "none")};
 `;
 
 const Text = styled.p`

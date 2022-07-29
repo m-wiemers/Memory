@@ -23,7 +23,7 @@ const PlayField = styled.div`
   max-width: 700px;
 `;
 
-const shuffledCards = shuffle(cardSlugs);
+const shuffledCards = shuffle(CardSlugs);
 
 export default function App() {
   const [selectedIds, setSelectedIds] = useState<number[]>([]);

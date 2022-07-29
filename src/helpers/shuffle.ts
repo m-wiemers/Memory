@@ -1,4 +1,4 @@
-import { CardSlugTypes } from "../public/cardSlugs";
+import { CardSlugTypes } from "../components/cardSlugs";
 
 export const shuffle = (array: CardSlugTypes) => {
   let currentIndex = array.length,

@@ -1,8 +1,8 @@
 import "./styles.css";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import cardSlugs from "./components/cardSlugs";
 import Card from "./components/Card";
+import CardSlugs, { CardSlugType } from "./components/CardSlugs";
 import Button from "./components/Button";
 import MessageBox from "./components/MessageBox";
 import Timer from "./components/Timer";
@@ -100,7 +100,7 @@ export default function App() {
     }
   };
 
-  const cards = allCards.map((el) => (
+  const cards = allCards.map((el: CardSlugType) => (
     <Card
       src={el.front}
       status={selectedIds.includes(el.id) || pairs.includes(el.id)}

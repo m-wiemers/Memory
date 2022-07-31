@@ -1,12 +1,12 @@
 import "./styles.css";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import cardSlugs from "./components/cardSlugs";
 import Card from "./components/Card";
 import Button from "./components/Button";
 import MessageBox from "./components/MessageBox";
 import Timer from "./components/Timer";
 import { shuffle } from "./helpers/shuffle";
+import cardSlugs from "./components/CardSlugs";
 
 const Wrapper = styled.div`
   display: flex;
